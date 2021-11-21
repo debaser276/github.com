@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	numbers, err := datafile.GetFloats("data")
+	numbers, err := datafile.GetFloats("data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
